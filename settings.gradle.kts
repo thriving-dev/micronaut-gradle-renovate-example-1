@@ -1,3 +1,3 @@
-rootProject.name = "java-library-template"
+rootProject.name = "micronaut-gradle-renovate-example"
 
-include("java-library-template")
+include("micronaut-gradle-renovate-example")
