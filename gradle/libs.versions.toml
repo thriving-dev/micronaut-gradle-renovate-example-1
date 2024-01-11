@@ -2,11 +2,11 @@
 junit = "5.10.1"
 assertj = "3.25.1"
 testcontainers = "1.19.3"
-micronaut = "4.2.2"
+micronaut = "4.2.3"
 
 johnrengelman_shadow_plugin = "8.1.1"
-micronaut_application_plugin = "4.2.0"
-micronaut_aot_plugin = "4.2.0"
+micronaut_application_plugin = "4.2.1"
+micronaut_aot_plugin = "4.2.1"
 
 [libraries]
 micronaut = { module = "io.micronaut:micronaut-core", version.ref = "micronaut" }
