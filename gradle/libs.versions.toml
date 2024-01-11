@@ -1,15 +1,20 @@
 [versions]
+# note: the version named `micronaut` is picked up by the micronaut gradle plugin
+micronaut = "4.2.3"
+
 junit = "5.10.1"
 assertj = "3.25.1"
 testcontainers = "1.19.3"
-micronaut = "4.2.3"
 
 johnrengelman_shadow_plugin = "8.1.1"
 micronaut_application_plugin = "4.2.1"
 micronaut_aot_plugin = "4.2.1"
 
 [libraries]
+# note: the defined library 'micronaut-core' is not referenced directly in any build.gradle(.kts)
+#       but required for renovate to check and update micronaut.
 micronaut = { module = "io.micronaut:micronaut-core", version.ref = "micronaut" }
+
 junit = { module = "org.junit.jupiter:junit-jupiter", version.ref = "junit" }
 assertj = { module = "org.assertj:assertj-core", version.ref = "assertj" }
 testcontainers = { module = "org.testcontainers:testcontainers", version.ref = "testcontainers" }
