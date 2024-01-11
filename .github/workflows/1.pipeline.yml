@@ -7,18 +7,6 @@ on:
       - '*'
   pull_request:
     branches: ['*']
-  workflow_dispatch:
-    inputs:
-      type:
-        description: 'Release Library'
-        required: true
-        default: '...no release'
-        type: choice
-        options:
-          - '...no release'
-          - major
-          - minor
-          - patch
 
 jobs:
 
@@ -45,15 +33,3 @@ jobs:
     name: Integration tests
     uses: ./.github/workflows/callable.integration-test.yml
     needs: build
-
-  publish_javadoc:
-    name: Publish javadoc (GitHub Pages)
-    permissions:
-      contents: write
-    uses: ./.github/workflows/callable.publish-javadoc.yml
-    needs: integration_test
-    if: |
-      (
-        github.ref == 'refs/heads/main'
-        && ( inputs.type == '' || inputs.type == '...no release' )
-      ) || github.ref_type == 'tag' 
