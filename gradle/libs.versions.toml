@@ -1,10 +1,10 @@
 [versions]
 # note: the version named `micronaut` is picked up by the micronaut gradle plugin
-micronaut = "4.2.3"
+micronaut = "4.2.4"
 
 junit = "5.10.1"
-assertj = "3.25.1"
-testcontainers = "1.19.3"
+assertj = "3.25.2"
+testcontainers = "1.19.4"
 
 johnrengelman_shadow_plugin = "8.1.1"
 micronaut_application_plugin = "4.2.1"
