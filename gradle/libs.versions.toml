@@ -11,7 +11,7 @@ micronaut_application_plugin = "4.2.1"
 micronaut_aot_plugin = "4.2.1"
 
 [libraries]
-# note: the defined library 'micronaut-core' is not referenced directly in any build.gradle(.kts)
+# note: the defined library 'micronaut-platform' is not referenced directly in any build.gradle(.kts)
 #       but required for renovate to check and update micronaut.
 micronaut = { module = "io.micronaut.platform:micronaut-platform", version.ref = "micronaut" }
 
