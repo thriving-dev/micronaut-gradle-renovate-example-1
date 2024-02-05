@@ -1,1 +1,1 @@
-rootProject.name = "micronaut-gradle-renovate-example"
+rootProject.name = "micronaut-gradle-renovate-example-1"

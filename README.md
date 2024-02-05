@@ -1,9 +1,8 @@
-# micronaut-gradle-renovate-example
+# micronaut-gradle-renovate-example-1
 
 [![Use this template](https://img.shields.io/badge/from-java--library--template-brightgreen?logo=dropbox)](https://github.com/thriving-dev/java-library-template/generate)
-[![Java CI](https://github.com/thriving-dev/micronaut-gradle-renovate-example/actions/workflows/1.pipeline.yml/badge.svg)](https://github.com/thriving-dev/micronaut-gradle-renovate-example/actions/workflows/1.pipeline.yml)
+[![Java CI](https://github.com/thriving-dev/micronaut-gradle-renovate-example-1/actions/workflows/1.pipeline.yml/badge.svg)](https://github.com/thriving-dev/micronaut-gradle-renovate-example-1/actions/workflows/1.pipeline.yml)
 [![Contributor Covenant](https://img.shields.io/badge/Contributor%20Covenant-2.1-4baaaa.svg)](CODE_OF_CONDUCT.md)
-[![Javadoc](https://img.shields.io/badge/JavaDoc-Online-green)](https://thriving-dev.github.io/micronaut-gradle-renovate-example/javadoc/)
 
 Micronaut gradle project with automated dependency updates by renovate that _actually_ updates the micronaut runtime used.
 
