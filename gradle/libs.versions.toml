@@ -1,6 +1,6 @@
 [versions]
 # note: the version named `micronaut` is picked up by the micronaut gradle plugin
-micronaut = "4.3.2"
+micronaut = "4.3.3"
 
 junit = "5.10.2"
 assertj = "3.25.3"
