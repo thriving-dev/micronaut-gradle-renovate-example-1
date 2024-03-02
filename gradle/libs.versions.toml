@@ -7,8 +7,8 @@ assertj = "3.25.3"
 testcontainers = "1.19.6"
 
 johnrengelman_shadow_plugin = "8.1.1"
-micronaut_application_plugin = "4.3.3"
-micronaut_aot_plugin = "4.3.3"
+micronaut_application_plugin = "4.3.4"
+micronaut_aot_plugin = "4.3.4"
 
 [libraries]
 # note: the defined library 'micronaut-platform' is not referenced directly in any build.gradle(.kts)
