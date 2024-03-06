@@ -4,7 +4,7 @@ micronaut = "4.3.4"
 
 junit = "5.10.2"
 assertj = "3.25.3"
-testcontainers = "1.19.6"
+testcontainers = "1.19.7"
 
 johnrengelman_shadow_plugin = "8.1.1"
 micronaut_application_plugin = "4.3.4"
