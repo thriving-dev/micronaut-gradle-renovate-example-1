@@ -1,14 +1,14 @@
 [versions]
 # note: the version named `micronaut` is picked up by the micronaut gradle plugin
-micronaut = "4.3.8"
+micronaut = "4.6.3"
 
-junit = "5.10.2"
-assertj = "3.25.3"
-testcontainers = "1.19.7"
+junit = "5.11.3"
+assertj = "3.26.3"
+testcontainers = "1.20.3"
 
 johnrengelman_shadow_plugin = "8.1.1"
-micronaut_application_plugin = "4.3.6"
-micronaut_aot_plugin = "4.3.6"
+micronaut_application_plugin = "4.4.3"
+micronaut_aot_plugin = "4.4.3"
 
 [libraries]
 # note: the defined library 'micronaut-platform' is not referenced directly in any build.gradle(.kts)
